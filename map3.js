@@ -1,6 +1,6 @@
 var lab9Map3 = L.map('map3id').setView([32.18, -99.14], 4)
 var americaLayerObject = L.layerGroup().addTo(lab9Map3)
-var lab9Map3BasemapObjectpObject = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}').addTo(lab9Map3)
+var lab9Map3BasemapObjectpObject = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png').addTo(lab9Map3)
 var dataUrl = 'https://geog4046.github.io/assignment-resources/data/us_state_demographics_ESRI_2010A.geojson'
 var routesBasemapObject = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}').addTo(lab9Map3)
 var basemapsObject = {
